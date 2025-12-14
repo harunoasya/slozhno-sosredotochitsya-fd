@@ -1,5 +1,6 @@
 :root.theme-light {
   --bg-image: url(/images/cover-image-light.png);
+  --bg-color: #FFF1F7;
   --title-color: #FFC2E6;
   --title-decor: #353430;
   --paragraph-color: #353430;
@@ -19,6 +20,7 @@
 @media (prefers-color-scheme: light) {
   :root {
   --bg-image: url(/images/cover-image-light.png);
+  --bg-color: #FFF1F7;
   --title-color: #FFC2E6;
   --title-decor: #353430;
   --paragraph-color: #353430;
