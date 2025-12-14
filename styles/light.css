@@ -1,8 +1,8 @@
-:root.theme-light { 
+:root.theme-light {
   --bg-image: url(/images/cover-image-light.png);
   --title-color: #FFC2E6;
   --title-decor: #353430;
-  --paragraph-color: #353430; 
+  --paragraph-color: #353430;
   --accent-color: #FF8DCB;
   --secondary-accent-color: #353430;
 
@@ -21,7 +21,7 @@
   --bg-image: url(/images/cover-image-light.png);
   --title-color: #FFC2E6;
   --title-decor: #353430;
-  --paragraph-color: #353430; 
+  --paragraph-color: #353430;
   --accent-color: #FF8DCB;
   --secondary-accent-color: #353430;
   }

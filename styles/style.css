@@ -98,24 +98,24 @@
 }
 
 .decorated-zone::before {
-  content: ""; 
+  content: "";
   position: absolute;
   top: 10px;
   right: 10px;
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--secondary-accent-color, #FF0070); 
+  border-top: 1px solid var(--secondary-accent-color, #FF0070);
   border-right: 1px solid var(--secondary-accent-color, #FF0070);
 }
 
 .decorated-zone::after {
-  content: ""; 
+  content: "";
   position: absolute;
   bottom: 10px;
   left: 10px;
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--secondary-accent-color, #FF0070); 
+  border-bottom: 1px solid var(--secondary-accent-color, #FF0070);
   border-left: 1px solid var(--secondary-accent-color, #FF0070);
 }
 
@@ -316,7 +316,7 @@
     object-fit: cover;
   }
 
-  .street__image{
+  .street__image {
     grid-column: 2 / 4;
     grid-row: 4 / 5;
     object-fit: cover;
@@ -413,9 +413,6 @@
 
   .what .card-list {
     grid-row: 2 / 3;
-  }
-
-  .what .card-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -462,7 +459,7 @@
     object-fit: cover;
   }
 
-  .street__image{
+  .street__image {
     grid-column: 2 / 4;
     grid-row: 4 / 5;
     object-fit: cover;
