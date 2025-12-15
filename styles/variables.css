@@ -1,10 +1,11 @@
 :root {
-  --main-font: 'IBM Plex mono';
+  --main-font: 'IBM Plex mono', monospace;
   --font-size-text: 18px;
-  --bg-image: url(/images/cover-image-dark.png);
+  --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
   --title-color: #DB00FF;
   --title-decor: #000028;
+  --outline-color: rgba(255, 0, 112, 0.4);
   --paragraph-color: #F1B2CE;
   --accent-color: #FF0070;
   --secondary-accent-color: #FF0070;
