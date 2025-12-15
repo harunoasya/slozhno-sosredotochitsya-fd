@@ -46,6 +46,7 @@
 .header__theme-menu {
   grid-row: 2 / 3;
   justify-self: end;
+  align-self: flex-end;
   margin-block-start: 6lvh;
 }
 
@@ -53,16 +54,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 13px;
 }
 
 .header__theme-menu-button {
   border: none;
+  padding: 1.5px 13px;
   color: var(--secondary-accent-color, #FF0070);
   line-height: 1em;
   text-transform: lowercase;
   background-color: transparent;
-  padding: 1.5px 13px;
 }
 
 .header__theme-menu-button_active {
@@ -77,7 +78,7 @@
 
 .header__title {
   grid-row: 3 / 4;
-  margin-block-start: 11lvh;
+  margin-block-start: 10.5lvh;
   color: var(--title-color, #DB00FF);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
@@ -238,15 +239,19 @@
     margin-block-start: 14vh;
   }
   
+  .header__theme-menu-list {
+    gap: 15px;
+  }
+
   .header__title {
-    margin-block-start: 18vh;
+    margin-block-start: 17vh;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__text {
     justify-self: end;
     margin-top: 16vh;
-    inline-size: 50%;
+    inline-size: 20.2em;
   }
 
   .decorated-zone::before {
@@ -336,11 +341,13 @@
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     justify-self: center;
+    margin-inline-start: 20px;
     margin-block-start: 0;
   }
 
   .header__theme-menu-list {
     flex-direction: row;
+    gap: 11px;
   }
   
   .header__theme-menu-button:focus {
@@ -366,8 +373,8 @@
     grid-column: 1 / 4;
     grid-row: 3 / 4;
     justify-self: end;
-    margin-block-start: 15vh;
-    inline-size: 50%;
+    margin-block-start: 14.5vh;
+    inline-size: 27.3em;
   }
 
   .decorated-zone::before {
